@@ -1,0 +1,21 @@
+[build-system]
+build-backend = "poetry.masonry.api"
+requires = ["poetry>=0.12"]
+
+[tool]
+[tool.poetry]
+authors = ["Your Name <sarveshwar313@gmail.com>"]
+description = ""
+name = "sarsoftrobot"
+version = "0.1.0"
+[tool.poetry.dependencies]
+colorama = "^0.4.3"
+google = "^2.0"
+googlemaps = "^4.2"
+gtts = "^2.1"
+pynput = "^1.6"
+python = "^3.8"
+pytz = "^2020.1"
+time-tools = "^1.0.0"
+google-currency = "^1.0.9"
+[tool.poetry.dev-dependencies]
